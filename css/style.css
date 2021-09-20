@@ -1,0 +1,105 @@
+/* Base Element Styles*/
+
+* { 
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1.25em;
+}
+
+body {
+    color: black;
+    font: light 300 100%/1.5 'Heebo', sans-serif;
+    line-height: 1.5;
+}
+h1 {
+    font-family: fantasy;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    margin: 0;
+}
+
+h3 {
+    padding: 50px 0 30px 0;
+    margin: 0;
+}
+h2,h3{
+    text-align: center;
+}
+
+p {
+
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*---Navigation(under header)---*/
+
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+    padding: 0.5rem 0 0.5rem 0;
+    color: black;
+    background-color: rgb(240, 213, 222);
+    margin: 3px;
+}
+header {
+    background-color: whitesmoke;
+}
+
+.alignment{
+    display: block;
+    margin: 30px auto 10px ;
+    width: 70%;
+
+}
+
+header p {
+    text-align: center;
+    margin:0;
+    padding: 5px 0 20px 0;
+}
+
+section {
+    text-align: center;
+}
+
+.sub-container {
+    margin: 0 auto;
+    width: 75%;
+}
+
+
+/*---Flexbox---*/
+
+
+
+
+
+
+/* Media Queries */
+
+@media  (min-width : 768px) {
+
+}
+
+@media  (min-width : 1024px) {
+
+}
+
+
+
